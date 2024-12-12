@@ -18,3 +18,9 @@ npm start
 /frontend-senior  nextjs приложение
 npm i
 npm run dev  
+
+
+
+### Bonus
+
+https://belousych.bitbucket.io/
