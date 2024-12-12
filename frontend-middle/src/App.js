@@ -15,8 +15,8 @@ const App = () => {
   }, [dispatch]);
 
   return (
-    <div>
-      <h1>Отзывы</h1>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">Отзывы</h1>
       <Filters />
       <Sort />
       <Table />

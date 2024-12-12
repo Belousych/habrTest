@@ -16,11 +16,11 @@ const Sort = () => {
   };
 
   return (
-    <div>
-      <button onClick={() => handleSortChange("date")}>
+    <div className="mt-4 mb-4 flex gap-4">
+      <button onClick={() => handleSortChange("date")} className="border border-gray-300 rounded-md p-2 bg-blue-500 text-white">
         Сортировать по времени ({order === "desc" ? "убывание" : "возрастание"})
       </button>
-      <button onClick={() => handleSortChange("rating")}>
+      <button onClick={() => handleSortChange("rating")} className="border border-gray-300 rounded-md p-2 bg-blue-500 text-white">
         Сортировать по рейтингу ({order === "desc" ? "убывание" : "возрастание"})
       </button>
     </div>
